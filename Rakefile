@@ -27,7 +27,7 @@ Dir['iconic/raster/*'].each do |color|
 
         # Generate Spritesheet
         files = Dir["iconic/raster/#{color}/*#{size}.png"]
-        `montage #{files.join(' ')} -tile x1 -geometry #{size}x#{size}+0+0 #{@output}.png`
+        `montage #{files.join(' ')} -tile x1 -geometry #{size}x#{size}+0+0 -background none #{@output}.png`
 
         # If has pngnq, compress the output
         unless `which pngnq`.empty?
