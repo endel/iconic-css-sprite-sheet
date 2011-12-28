@@ -6,12 +6,10 @@
  *
  * Color: black
  * Size: 12x12
- * Date: 2011-12-26
+ * Date: 2011-12-27
  */
 
-.iconic { width: 12px; height: 12px; display: inline-block; }
-
-.iconic.black { background: url(iconic-black.png); }
+.iconic.black { width: 12px; height: 12px; display: inline-block; background: url(iconic-black.png); }
 
 .iconic.black.ampersand { background-position: 0px 0px; }
 

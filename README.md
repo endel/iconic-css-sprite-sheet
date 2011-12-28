@@ -1,13 +1,14 @@
-Iconic CSS Spritesheet
+Iconic CSS Sprite Sheet
 ===
 
-A CSS & Spritesheet generator for [Iconic](http://www.somerandomdude.com/work/iconic/) iconset, by P.J. Onori
+A CSS + PNG Sprite Sheet generator for [Iconic](http://www.somerandomdude.com/work/iconic/) iconset, by P.J. Onori
 
 
 Requirements
 ---
 
  - [ImageMagick 6.6+](http://www.imagemagick.org)
+ - [pngnq](http://pngnq.sourceforge.net/) (optional)
 
 Instructions
 ---
@@ -20,7 +21,7 @@ Run rake with your preferred color / size, like that:
 Special thanks
 ---
 
-Special thanks to Microsoft Internet Explorer, without him this project would never exist.
+Special thanks to Microsoft Internet Explorer, without him this project would never exist. Webfonts are just great.
 
 
 License

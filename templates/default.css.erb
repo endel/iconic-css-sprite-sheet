@@ -9,9 +9,7 @@
  * Date: <%= @date %>
  */
 
-.iconic { width: <%= @size %>px; height: <%= @size %>px; display: inline-block; }
-
-.iconic.<%= @color %> { background: url(<%= @output %>.png); }
+.iconic.<%= @color %> { background: url(<%= @output %>.png); width: <%= @size %>px; height: <%= @size %>px; display: inline-block; }
 <% @icons.each_with_index do |icon, i| %>
 .iconic.<%= @color %>.<%= icon %> { background-position: <%= (-@size * i).to_s %>px 0px; }
 <% end %>
