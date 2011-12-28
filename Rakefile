@@ -38,6 +38,8 @@ Dir['iconic/raster/*'].each do |color|
 
         # Generate CSS 
         rcss = ERB.new(open("templates/#{ENV['template'] || 'default.css.erb'}").read)
+
+        # @ie6 = defined? ENV['ie6']
         @color = color
         @size = size
         @icons = files.collect do |f| 

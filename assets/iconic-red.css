@@ -9,7 +9,7 @@
  * Date: 2011-12-27
  */
 
-.iconic.red { width: 8px; height: 8px; display: inline-block; background: url(iconic-red.png); }
+.iconic.red { background: url(iconic-red.png); width: 8px; height: 8px; display: inline-block; }
 
 .iconic.red.ampersand { background-position: 0px 0px; }
 

@@ -18,6 +18,14 @@ Run rake with your preferred color / size, like that:
     rake white:24x24 output=iconic-white-24x24
     rake black:24x24 output=iconic-white-24x24
 
+Supported browsers
+---
+
+  * Google Chrome 16.0.912.63 beta
+  * Safari 5.1.1
+  * Firefox 8.0.1
+  * Internet Explorer 7+
+
 Special thanks
 ---
 
